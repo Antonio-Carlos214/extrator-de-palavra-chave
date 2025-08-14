@@ -11,6 +11,6 @@ campoResultado.textContent = palavraschave.join(", ");
 }
 
 function processatexto(texto){
-    let palavras = texto.split(" ");
+    let palavras = texto.split(/\s+/);
     return palavras;
 }
